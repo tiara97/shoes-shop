@@ -35,7 +35,7 @@ class Login extends React.Component {
             .catch(error => console.log(error))
     }
     render() {
-        const { visible, loginError, user } = this.state
+        const { visible, loginError} = this.state
         console.log(this.props.username)
         if(this.props.username) {
             return <Redirect to='/' />
@@ -134,3 +134,6 @@ const mapStateToProps = (state) => {
 }
 
 export default connect(mapStateToProps, {LogIn})(Login)
+// kalo ga pake action / cmn ambil data aja kyk gini : 
+// export default connect(mapStateToProps)(Login)
+// ingat! action itu untuk edit / simpan data di global store

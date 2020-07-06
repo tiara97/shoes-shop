@@ -45,7 +45,6 @@ class Profile extends React.Component {
                         this.props.username ?
                             this.props.role === 'admin' ?
                                 <div>
-                                    <MenuItem>Product Management</MenuItem>
                                     <Link to='/adminDashboard' style={styles.link}>
                                     <MenuItem>Transaction Management</MenuItem>
                                     </Link>

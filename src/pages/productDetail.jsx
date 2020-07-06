@@ -16,7 +16,6 @@ class ProductDetail extends React.Component {
             product: {},
             stock: null,
             toLogin: false,
-            stock: null,
             selectedSize: null,
             total: 0,
             size: null,
@@ -141,6 +140,7 @@ class ProductDetail extends React.Component {
                         <h1 style={styles.info}>Category : {this.state.product.category}</h1>
                         <h1 style={styles.info}>Brand : {this.state.product.brand}</h1>
                         <h1 style={styles.info}>Color : {this.state.product.colour}</h1>
+                        <h1 style={styles.info}>Price : Rp. {this.state.product.price}</h1>
                         <h1 style={styles.info}>Description : </h1>
                         <h1 style={styles.decs}>{this.state.product.description}</h1>
                         <h1 style={styles.info}>Size : </h1>
@@ -196,13 +196,14 @@ function PrevArrow(props) {
 }
 const styles = {
     root: {
-        height: '100vh',
+        minHeight: 'calc(100vh - 70px)',
+        height: 'auto',
         width: '100%',
-        backgroundColor: 'pink',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '60px 2%'
+        backgroundColor: '#f2f2f2',
+        padding: '90px 10% 3% 10%'
     },
     paper: {
         height: 'auto',
@@ -217,7 +218,6 @@ const styles = {
         marginRight: '3%'
     },
     rightContent: {
-        backgroundColor: 'lightyellow',
         height: '100%',
         flexGrow: '1',
         display: 'flex',

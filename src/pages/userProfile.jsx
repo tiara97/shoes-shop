@@ -233,4 +233,6 @@ const mapStateToProps = (state) => {
     }
 }
 export default connect(mapStateToProps, { LogIn })(UserProfile)
-// export default UserProfile
+// kalo ga pake action / cmn ambil data aja kyk gini : 
+// export default connect(mapStateToProps)(Login)
+// ingat! action itu untuk edit / simpan data di global store

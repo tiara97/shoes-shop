@@ -64,6 +64,7 @@ class Register extends React.Component {
         let password = this.password.value
         let confPassword = this.confPassword.value
         let role = 'user'
+        let cart = []
         console.log(username, email, password, confPassword)
         let inputError = this.inputValidation(username, email, password, confPassword)
         let checkUsernameError = this.checkInputUsername(username)
@@ -71,16 +72,16 @@ class Register extends React.Component {
         console.log(checkUsernameError)
         console.log(checkEmailError)
         if (inputError.includes(true) || checkUsernameError || checkEmailError) {
-            this.username.value = ''
-            this.email.value = ''
-            this.password.value = ''
-            this.confPassword.value = ''
+            // this.username.value = ''
+            // this.email.value = ''
+            // this.password.value = ''
+            // this.confPassword.value = ''
             this.setState({ error: inputError, checkUser: checkUsernameError, checkEmail: checkEmailError })
             console.log('error')
             return
         }
         console.log('masuk')
-        Axios.post('http://localhost:2000/users', { username, password, role, email })
+        Axios.post('http://localhost:2000/users', { username, password, role, email, cart })
         .then(response => {
             console.log(response.data)
             this.username.value = ''

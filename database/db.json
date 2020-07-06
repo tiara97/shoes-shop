@@ -165,7 +165,9 @@
       "name": "NIKE W NIKE REACT ELEMENT 55",
       "category": "Women, Sport, Sneaker",
       "brand": "NIKE",
-      "rating": [],
+      "rating": [
+        5
+      ],
       "colour": "WHITE/FIRE PINK-SAPPHIRE-BARELY VOLT",
       "description": "When it comes to basketball, there is no way around Nike – the brand with the Swoosh belongs to the game like dunks, three-pointers and cross-overs. Whether in the NBA, European leagues or your neighborhood ...",
       "price": 2345000,
@@ -285,7 +287,10 @@
       "name": "VANS UA CLASSIC SLIP-ON (BREAST CANCER)",
       "category": "Women, Converse",
       "brand": "VANS",
-      "rating": [],
+      "rating": [
+        5,
+        4
+      ],
       "colour": "cadmium yellow/tidepool",
       "description": "In 1966 Jim van Doren, Gordy Lee and Serge D''Elia founded the Van Doren Rubber Company. In a shop next to the factory they sold the Hi-Top (also Sk8-Hi). It was the first sneaker which ...",
       "price": 543786,
@@ -531,77 +536,136 @@
       "email": "tiatia@yahoo.com",
       "id": 3,
       "cart": []
+    },
+    {
+      "username": "pengu",
+      "password": "Popopo0",
+      "role": "user",
+      "email": "pengu@gmail.com",
+      "cart": [
+        {
+          "name": "NIKE WMNS NIKE AIR MAX 90 SLIDE",
+          "image": "https://kickz.akamaized.net/en/media/images/p/1200/WMNS_NIKE_AIR_MAX_90_SLIDE-WHITE_SMOKE_GREY_ROSE_LT_SMOKE_GREY-1.jpg",
+          "brand": "NIKE",
+          "color": "WHITE/SMOKE GREY-ROSE-LT SMOKE GREY",
+          "size": 40,
+          "qty": 2,
+          "total": 1759300,
+          "price": 879650,
+          "id": 9,
+          "index": 2
+        },
+        {
+          "name": "NIKE W AIR MAX 90",
+          "image": "https://kickz.akamaized.net/en/media/images/p/1200/nike-W_AIR_MAX_90-WHITE_PARTICLE_GREY_ROSE_BLACK-1.jpg",
+          "brand": "NIKE",
+          "color": "WHITE/PARTICLE GREY-ROSE-BLACK",
+          "size": 41,
+          "qty": 1,
+          "total": 1987300,
+          "price": 1987300,
+          "id": 6,
+          "index": 3
+        }
+      ],
+      "id": 4
     }
   ],
   "transaction_history": [
     {
       "userID": 2,
-      "date": "2/7/2020 10.57.10",
-      "total": 2680000,
-      "products": [
-        {
-          "name": "JORDAN AIR JORDAN 14 RETRO",
-          "image": "https://kickz.akamaized.net/en/media/images/p/1200/Air_Jordan_14_Retro-BLACK_GYM_RED_WHITE_OFF_WHITE-1.jpg",
-          "brand": "JORDAN",
-          "color": "BLACK/GYM RED-WHITE-OFF WHITE",
-          "size": 40,
-          "qty": 1,
-          "total": 2680000
-        }
-      ],
-      "id": 1
-    },
-    {
-      "userID": 3,
-      "date": "2/7/2020 14.21.41",
-      "total": 2580654,
+      "date": "5/7/2020 22.18.59",
+      "rate": null,
+      "total": 543786,
       "products": [
         {
           "name": "VANS UA CLASSIC SLIP-ON (BREAST CANCER)",
           "image": "https://kickz.akamaized.net/en/media/images/p/1200/vans-UA_Classic_Slip_On_Breast_Cancer-Breast_Cancer_nude_check_true_white-1.jpg",
           "brand": "VANS",
           "color": "cadmium yellow/tidepool",
-          "size": 40,
+          "size": 39,
           "qty": 1,
           "total": 543786,
           "price": 543786,
           "id": 8,
-          "index": 2
-        },
-        {
-          "name": "VANS UA ERA (MIX & MATCH)",
-          "image": "https://kickz.akamaized.net/en/media/images/p/1200/vans-UA_Era_Mix__Match-cadmium_yellow_tidepool-1.jpg",
-          "brand": "VANS",
-          "color": "cadmium yellow/tidepool",
-          "size": 39,
-          "qty": 3,
-          "total": 2036868,
-          "price": 678956,
-          "id": 7,
           "index": 1
         }
       ],
-      "id": 2
+      "id": 5
     },
     {
       "userID": 2,
-      "date": "2/7/2020 14.50.16",
-      "total": 1780000,
+      "date": "5/7/2020 22.22.34",
+      "rate": null,
+      "total": 1500000,
+      "products": [
+        {
+          "name": "JORDAN WESTBROOK ONE TAKE",
+          "image": "https://kickz.akamaized.net/en/media/images/p/1200/JORDAN_WESTBROOK_ONE_TAKE-WHITE_WHITE_BLACK_RAGE_GREEN-1.jpg",
+          "brand": "JORDAN",
+          "color": "WHITE/WHITE-BLACK-RAGE GREEN",
+          "size": 41,
+          "qty": 1,
+          "total": 1500000,
+          "price": 1500000,
+          "id": 2,
+          "index": 3
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userID": 2,
+      "date": "5/7/2020 22.27.35",
+      "rate": null,
+      "total": 4280000,
       "products": [
         {
           "name": "NIKE KYRIE 6",
           "image": "https://kickz.akamaized.net/en/media/images/p/1200/nike-KYRIE_6-WHITE_BLUE_FURY_OPTI_YELLOW_DIGITAL_PINK-1.jpg",
           "brand": "NIKE",
           "color": "WHITE/BLUE FURY-OPTI YELLOW-DIGITAL PINK",
-          "size": 40,
+          "size": 41,
           "qty": 1,
           "total": 1780000,
           "price": 1780000,
           "id": 3,
+          "index": 3
+        },
+        {
+          "name": "NIKE AIR ZOOM-TYPE",
+          "image": "https://kickz.akamaized.net/en/media/images/p/1200/nike-AIR_ZOOM_TYPE-BLACK_SUMMIT_WHITE_MENTA_ORANGE_TRANCE-1.jpg",
+          "brand": "NIKE",
+          "color": "BLACK/SUMMIT WHITE-MENTA-ORANGE TRANCE",
+          "size": 40,
+          "qty": 1,
+          "total": 2500000,
+          "price": 2500000,
+          "id": 1,
           "index": 2
         }
       ],
-      "id": 3
+      "id": 7
+    },
+    {
+      "userID": 3,
+      "date": "6/7/2020 16.22.13",
+      "total": 5360000,
+      "products": [
+        {
+          "name": "JORDAN AIR JORDAN 14 RETRO",
+          "image": "https://kickz.akamaized.net/en/media/images/p/1200/Air_Jordan_14_Retro-BLACK_GYM_RED_WHITE_OFF_WHITE-1.jpg",
+          "brand": "JORDAN",
+          "color": "BLACK/GYM RED-WHITE-OFF WHITE",
+          "size": 41,
+          "qty": 2,
+          "total": 5360000,
+          "price": 2680000,
+          "id": 4,
+          "index": 3
+        }
+      ],
+      "id": 8
     }
   ]
 }
