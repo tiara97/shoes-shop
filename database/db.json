@@ -527,7 +527,20 @@
       "password": "user",
       "role": "user",
       "email": "user@gmail.com",
-      "cart": []
+      "cart": [
+        {
+          "name": "JORDAN AIR JORDAN 14 RETRO",
+          "image": "https://kickz.akamaized.net/en/media/images/p/1200/Air_Jordan_14_Retro-BLACK_GYM_RED_WHITE_OFF_WHITE-1.jpg",
+          "brand": "JORDAN",
+          "color": "BLACK/GYM RED-WHITE-OFF WHITE",
+          "size": 41,
+          "qty": 1,
+          "total": 2680000,
+          "price": 2680000,
+          "id": 4,
+          "index": 3
+        }
+      ]
     },
     {
       "username": "tia",

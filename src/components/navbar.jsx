@@ -158,7 +158,7 @@ const styles = {
     },
     cartPopOver:{
         display: 'flex',
-        flexDirection: 'column',
+        // flexDirection: 'column',
         width: '500px'
       }
 }
